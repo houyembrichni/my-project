@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Lobster&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Satisfy&display=swap");
+
+.aboutus {
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  /* width: 50%; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus h2 {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-size: xx-large;
+  color: rgba(49, 49, 238, 0.713);
+  width: fit-content;
+  /* border: 1px solid black; */
+}
+.aboutus p {
+  /* border: 1px solid black; */
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}

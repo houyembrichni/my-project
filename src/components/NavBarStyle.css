@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Protest+Riot&family=Satisfy&display=swap");
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  border-bottom: 1px solid brown;
+  border-top: 3px solid brown;
+  background-color: white;
+}
+.navbar-logo {
+  /* border: 1px black solid; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.navbar-logo p {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "Protest Riot", sans-serif;
+  color: #dbbc8c;
+}
+.navbar-genre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.navbar-keyword {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.selection select {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #561616;
+  font-size: medium;
+  font-weight: 100;
+}
+#catalog-select,
+#keyword-select {
+  height: 35px;
+  font-size: 15px;
+  background-color: rgba(165, 42, 42, 0.103);
+}
+
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Search button {
+  width: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  height: 35px;
+  background-color: brown;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+.Search button:hover {
+  background-color: rgb(210, 51, 51);
+}
+.Search input {
+  width: 300px;
+  height: 31px;
+  background-color: rgba(165, 42, 42, 0.103);
+  border: 1px dimgray solid;
+}
+.Search input:focus {
+  background-color: white;
+}
+.group-search {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+.NavBar {
+  /* border: 1px black solid; */
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  padding: 0 5%;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: rgba(30, 3, 3, 0);
+  z-index: 10000;
+}
+.header-box {
+  /* border: 5px blue solid; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.NavBar a {
+  all: unset;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #dbbc8c;
+  
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  transition: filter 0.2s;
+}
+.NavBar a:hover {
+  filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+.Navlinks {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+/* .Log {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+} */

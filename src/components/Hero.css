@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Lobster&family=Pacifico&family=Protest+Riot&family=Satisfy&display=swap");
+.Hero {
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* border: 3px green solid; */
+  min-height: 100vh;
+  /* top: -60px; */
+}
+.Hero h1 {
+  color:white;
+  font-size: 35px;
+  position: absolute;
+  top: 130px;
+  right: 150px;
+  filter: drop-shadow(0 0 10px black);
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 1;
+}
+.navbar-logo {
+  background-color: transparent;
+  /* border: 1px red solid; */
+  width: fit-content;
+}
+video{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+z-index: 0;
+}
+.videoback{
+    position: absolute;
+top: 0;
+width: 100vw;
+  height: 100vh;
+z-index: 1;
+background-color: rgba(0, 0, 0, 0.391);
+}
