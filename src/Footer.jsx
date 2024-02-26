@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { SiFacebook, SiInstagram } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiWhatsapp } from "react-icons/si";
 
 function Footer() {
   return (
@@ -30,16 +30,18 @@ function Footer() {
           <ul>
             <li>
               <a href=" " target="_blank" rel="noopener">
-                <SiFacebook/>
+                <SiFacebook />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" rel="noopener">
-                <SiInstagram/>
+                <SiInstagram />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" rel=""></a>
+              <a href="#" target="_blank" rel="">
+                <SiWhatsapp />
+              </a>
             </li>
           </ul>
         </div>
