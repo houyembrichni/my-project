@@ -1,3 +1,151 @@
-.Footer{
-    border: 1px solid black; 
+/* .Footer {
+  border: 1px solid black;
+} */
+.footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .footer-name {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: #333; 
+  border: 1px black solid; 
+} */
+
+h3 {
+  color: #555;
+}
+
+p {
+  margin: 5px 0;
+}
+
+strong {
+  color: #007bff; /* or any color you prefer */
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Social media icons (assuming you have icon fonts or images) */
+ul li a {
+  font-size: 20px;
+  color: #333;
+}
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-section h3 {
+  color: #333;
+}
+
+.contact-section p {
+  margin: 5px 0;
+}
+
+.contact-section strong {
+  color: #007bff; /* or any color you prefer */
+}
+
+.contact-section a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* Container for Contact Information and Follow Us sections */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9; /* Background color for the container */
+  padding: 20px;
+}
+.contact-container p {
+  display: flex;
+  text-align: center;
+}
+
+/* Styling for Contact Information Section */
+.contact-section {
+  text-align: left; /* Align text to the left within the section */
+}
+
+.contact-section h3 {
+  color: #333;
+}
+
+.contact-section p {
+  margin: 5px 0;
+}
+
+.contact-section strong {
+  color: #007bff; /* or any color you prefer */
+}
+
+.contact-section a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for Follow Us Section */
+.follow-us-section {
+  text-align: right; /* Align text to the right within the section */
+}
+
+.follow-us-section h2 {
+  color: #333;
+}
+
+.follow-us-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.follow-us-section li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.follow-us-section a {
+  font-size: 20px;
+  color: #333;
+}
+
+.follow-us-section a:hover {
+  text-decoration: underline;
 }

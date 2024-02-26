@@ -8,6 +8,9 @@ import { Routes, Route } from "react-router-dom";
 import Books from "./pages/Books";
 import Account from "./pages/BestSellers";
 import BestSellers from "./pages/BestSellers";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 
 function App() {
   return (
