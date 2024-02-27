@@ -55,40 +55,59 @@ Laurie ignores her own professional rules and responsibilities to investigate pe
   },
   {
     id: "289b4bb5-fd06-5c16-9232-2ac1ced8b680",
-    title: "",
-    postUrl: "",
-    description: "",
-    rating: "",
-    author: "",
-    paper: "",
-    paper: "",
+    title: "Treasure Island",
+    postUrl: " https://m.media-amazon.com/images/I/71BjlzIr8bL._AC_UY218_.jpg",
+    description:
+      "It's the story of a young boy named Jim Hawkins who runs an inn with his mother. One day a pirate arrives at his inn, gives him money and asks him to warn him if a man with only one leg arrives. A few days later, the pirate will be killed because of a mysterious black spot. Jim will then find a treasure map in his chest and will go in search of the treasure with the help of Doctor Livesey and Captain Smolett who is the owner of the boat they will use to reach the treasure island.",
+    rating: " 5",
+    author: " Robert Louis Stevenson ",
+    paper: " 12,99 $",
   },
   {
     id: "289b4bb5-fd06-5c16-9232-2ac1ced8b680",
-    title: "",
-    postUrl: "",
-    description: "",
-    rating: "",
-    author: "",
-    paper: "",
+    title: "Belladonna",
+    postUrl:
+      "https://prod-bb-images.akamaized.net/book-covers/coverimage-9788831813778-mondadori-2024-01-29t23-11.jpg?w=640",
+    description: ` Descrizione del libro
+Rimasta orfana ancora bambina, è
+stata allevata da una serie di tutori
+tutti interessati più alla sua ricchezza
+che al suo bene, e tutti defunti prima di
+poter mettere le mani sulla sua eredità.
+
+Gli unici parenti che le sono rimasti sono
+gli Hawthornes, un'eccentrica famiglia che
+vive nella cupa ma ricchissima villa di Thorn
+Grove. Signa non ci mette molto a scoprire
+i segreti che gli Hawthornes celano tra le
+mura della tenuta: mentre il padre piange la
+defunta moglie organizzando feste sfrenate,
+il figlio maggiore lotta per mantenere alta la
+reputazione di una famiglia ormai in declino.`,
+    rating: " 7",
+    author: " Adalyn Grace",
+    paper: " 10,99$",
   },
   {
     id: "289b4bb5-fd06-5c16-9232-2ac1ced8b680",
-    title: "",
-    postUrl: "",
-    description: "",
-    rating: "",
-    author: "",
-    paper: "",
+    title: " family secreats ",
+    postUrl:
+      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526978093i/40191622.jpg ",
+    description:
+      " He talks about how a Tunisian lives, and the Tunisian brain, the hamstrings, and the fatwas are the Tunisian’s enjoyment. To read it, you will grow old, laugh, be sad, be happy, benefit, and feel everything. It is an amazing experience and we recommend it to everyone...!! A pinch of benzoin, incense, and a pinch of tablahit at the bottom.. ",
+    rating: " 4",
+    author: " Faten Al-Faza",
+    paper: " 10$",
   },
   {
     id: "289b4bb5-fd06-5c16-9232-2ac1ced8b680",
-    title: "",
-    postUrl: "",
-    description: "",
-    rating: "",
-    author: "",
-    paper: "",
+    title: " The neighborhood ",
+    postUrl:
+      " https://ceresbookshop.com/1022782-large_default/%D8%A7%D9%84%D8%AD%D9%8A-%D9%8A%D8%B1%D9%88%D8%AD.jpg",
+    description: " The book talks about his experience in prison",
+    rating: " 6",
+    author: " Nour Shaybah’s",
+    paper: " 15$",
   },
   {
     id: "289b4bb5-fd06-5c16-9232-2ac1ced8b680",
