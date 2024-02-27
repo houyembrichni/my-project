@@ -59,7 +59,7 @@ ul li a {
 }
 .contact-section {
   background-color: #f9f9f9;
-  padding: 20px;
+  padding:0 20px;
   text-align: center;
 }
 
@@ -87,18 +87,19 @@ ul li a {
 /* Container for Contact Information and Follow Us sections */
 .contact-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: start;
   background-color: #f9f9f9; /* Background color for the container */
   padding: 20px;
 }
 .contact-container p {
-  display: flex;
+  
   text-align: center;
 }
 
 /* Styling for Contact Information Section */
 .contact-section {
-  text-align: left; /* Align text to the left within the section */
+  text-align:center; /* Align text to the left within the section */
 }
 
 .contact-section h3 {
@@ -134,6 +135,9 @@ ul li a {
 .follow-us-section ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .follow-us-section li {
@@ -141,11 +145,19 @@ ul li a {
   margin-right: 10px;
 }
 
-.follow-us-section a {
-  font-size: 20px;
-  color: #333;
+#facebook svg{
+color: #1877F2;
+}
+#insta svg{
+color: #E1306C;
+}
+#whatsapp svg{
+color: #25D366;
 }
 
 .follow-us-section a:hover {
   text-decoration: underline;
+  color:#007bff
 }
+
+

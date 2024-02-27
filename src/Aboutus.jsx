@@ -1,5 +1,6 @@
 import React from "react";
 import "./aboutus.css";
+import Trends from "./components/Trends";
 
 function Aboutus() {
   return (
@@ -18,15 +19,7 @@ function Aboutus() {
         books, AudioBooks , and more. In other words, they are an
         all-encompassing source of information.
       </p>
-      <div className="card_container">
-        <div className="card">
-          <img
-            src="https://wordswithoutborders.org/wp-content/uploads/2023/12/December-2023-Year-End-List-Mothers-Dont-Agirre-Whittemore-Vengeance-Is-Mine-NDiaye-Stump-800x600.png"
-          />
-        </div>
-        <div className="card"></div>
-        <div className="card"></div>
-      </div>
+     <Trends/>
     </div>
   );
 }

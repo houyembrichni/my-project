@@ -5,11 +5,14 @@ import { SiFacebook, SiInstagram, SiWhatsapp } from "react-icons/si";
 function Footer() {
   return (
     <div className="footer">
-      <div class="contact-container">
-        <p>
-          <strong> Bookworm Retreat</strong>
+      <div className="contact-container">
+        <p style={{width:"250px"}}>
+          <h3> Bookworm Retreat</h3>
+          <br />
+          Beyond the Page, Beyond the Imagination: Your Book Collection
+          Adventure Awaits.
         </p>
-        <div class="contact-section">
+        <div className="contact-section">
           <h3> Contact Information</h3>
           <p>
             Phone: <a href="tel:(+216)  97 427 288 "> (+216) 97 427 288 </a>{" "}
@@ -21,25 +24,40 @@ function Footer() {
           <p>
             Email: brichnihouyem908@gmail.com
             <br />
-            erigeouni4526@gmail.com
+            erigeouni2645@gmail.com
           </p>
         </div>
 
-        <div className="follow-us-section">
-          <h2>Follow Us</h2>
+        <div className="follow-us-section" style={{width: '250px'}}>
+          <h3 style={{textAlign:"center"}}>Follow Us</h3>
           <ul>
-            <li>
-              <a href=" " target="_blank" rel="noopener">
+            <li className="facebook">
+              <a
+                href="http://www.facebook.com/houyem.brichni/ "
+                target="_blank"
+                rel="noopener"
+                id="facebook"
+              >
                 <SiFacebook />
               </a>
             </li>
-            <li>
-              <a href="#" target="_blank" rel="noopener">
+            <li className=" instagram">
+              <a
+                href="http://www.instagram.com/ouni_ariij/ "
+                target="_blank"
+                rel="noopener"
+                id="insta"
+              >
                 <SiInstagram />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" rel="">
+              <a
+                href="https://wa.me/97427288"
+                target="_blank"
+                rel=""
+                id="whatsapp"
+              >
                 <SiWhatsapp />
               </a>
             </li>
@@ -47,7 +65,7 @@ function Footer() {
         </div>
       </div>
       <h4 className="footer-name">
-        2024 Book Searching <br />& Study literature
+        @ 2024 Book Searching <br />& Study literature
       </h4>
     </div>
   );
