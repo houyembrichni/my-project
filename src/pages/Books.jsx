@@ -8,7 +8,9 @@ function Books() {
       {/* <MainNavBar /> */}
       <div className="books-container">
         <NavBar />
-        <h1>Books page</h1>
+    
+       
+
       </div>
     </div>
   );
