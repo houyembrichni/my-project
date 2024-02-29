@@ -22,22 +22,22 @@ function Slider() {
     background: "white",
     overflow: "hidden",
     margin: " 40px auto",
-    
-   
-    
+ 
   };
 
+const containerstyle={
+  maxWidth:"35vw"
+}
 
   const image = {
     position: "relative",
-    width: "35vw",
+    maxWidth: "35vw",
 
     height: "70vh",
   };
   const stylediv = {
     position: "relative",
     width: "70vw",
-    minWidth: "70vw",
     display: "flex",
     height: "70vh",
   };
@@ -45,6 +45,7 @@ function Slider() {
     position: "relative",
     display: "flex",
     height: "70vh",
+    minWidth:'350vw',
     // borderRadius: "10px",
     background: "",
     transform: `translateX(${carrent * -70}vw)`,
@@ -82,7 +83,7 @@ function Slider() {
         <div className="sliderslider" style={styleSlider}>
           <div style={stylediv}>
             <img style={image} src={images[0]} alt="" />
-            <div>
+            <div style={containerstyle}>
               {" "}
               <h2>
                 Working with Wattpad Studios is like a dream. Not only do they
@@ -100,7 +101,7 @@ function Slider() {
           </div>
           <div style={stylediv}>
             <img src={images[1]} style={image} alt="" />
-            <div>
+            <div style={containerstyle}>
               {" "}
               <h2>
                 When I joined Wattpad, I gained a second family who were as

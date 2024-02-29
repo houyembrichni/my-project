@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer">
       <div className="contact-container">
         <p style={{width:"250px"}}>
-          <h3> Bookworm Retreat</h3>
+          <h3> StoryRoom</h3>
           <br />
           Beyond the Page, Beyond the Imagination: Your Book Collection
           Adventure Awaits.

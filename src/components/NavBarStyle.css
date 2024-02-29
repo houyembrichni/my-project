@@ -15,6 +15,7 @@
 }
 .navbar-logo img{
 height: 70px;
+margin-left: 20px;
 }
 .navbar-logo p {
   margin: 0;
@@ -29,17 +30,7 @@ height: 70px;
 }
 .navbar-logo:hover {
   text-decoration: none;
-
 }
-.navbar-logo span{
-  /* font-size:medium ; */
-    font-size: 2.3rem;
-  font-weight: 800;
-  font-family: "Yellowtail", cursive;
-  color: black;
-  filter: drop-shadow(0 0 10px rgba(238, 234, 234, 0.807));
-}
-
 .navbar-genre {
   display: flex;
   align-items: center;
@@ -121,13 +112,14 @@ height: 70px;
   /* border: 5px blue solid; */
   position: fixed;
   width: 100%;
+  height: 80px;
   top: 0;
   z-index: 15;
   display: flex;
   align-items: center;
   justify-content: space-around;
   transition: all 0.4s ease;
-}
+} 
 .header-box-active {
   /* border: 5px blue solid; */
   position: fixed;
@@ -161,6 +153,7 @@ height: 70px;
   display: flex;
   justify-content: center;
   gap: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* .Log {
   display: flex;
