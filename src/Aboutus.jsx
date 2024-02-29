@@ -1,6 +1,7 @@
 import React from "react";
 import "./aboutus.css";
-import Trends from "./components/Trends";
+
+import Slider from "./components/slider";
 
 function Aboutus() {
   return (
@@ -19,7 +20,7 @@ function Aboutus() {
         books, AudioBooks , and more. In other words, they are an
         all-encompassing source of information.
       </p>
-     <Trends/>
+      <Slider />
     </div>
   );
 }

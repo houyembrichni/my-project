@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
 function MainNavBar() {
+  const [toggle,setToggle]=useState(false)
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      if(window.scrollY>650){
+        setToggle(true)
+      }
+      else{
+        setToggle(false)
+      }
+    })
+  })
   return (
-    <div className="header-box">
+    <div className={!toggle?"header-box":'header-box-active'}>
       <Logo />
       <nav className="NavBar">
         <div className="Navlinks">

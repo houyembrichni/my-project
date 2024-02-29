@@ -9,11 +9,20 @@ function Hero() {
         <br />
         tomorrow's innovation
       </h1>
-<div className='videoback'></div>
-        <video loop muted autoPlay>
-          <source src={video} type="video/mp4" />
-        </video>
-
+      <div className='Hero-container'>
+        <h2> Hi, we're StoryRoom. </h2>
+        <h4> The world's largest storytelling community </h4>
+        <p>
+          {" "}
+          Home to 97 million people who spend more than 26 billion minutes a
+          month on original stories, StoryRoom has democratized storytelling for
+          a new generation.{" "}
+        </p>
+      </div>
+      <div className="videoback"></div>
+      <video loop muted autoPlay>
+        <source src={video} type="video/mp4" />
+      </video>
     </div>
   );
 }
