@@ -6,7 +6,7 @@ function MainNavBar() {
   const [toggle,setToggle]=useState(false)
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
-      if(window.scrollY>650){
+      if(window.scrollY>400){
         setToggle(true)
       }
       else{

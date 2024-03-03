@@ -22,7 +22,7 @@
 } */
 
 h3 {
-  color: #555;
+  color: black;
 }
 
 p {
@@ -34,7 +34,7 @@ strong {
 }
 
 a {
-  color: #333;
+  color: black;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ li {
 /* Social media icons (assuming you have icon fonts or images) */
 ul li a {
   font-size: 20px;
-  color: #333;
+  color: black;
 }
 .contact-section {
   background-color: #f9f9f9;
@@ -64,7 +64,7 @@ ul li a {
 }
 
 .contact-section h3 {
-  color: #333;
+  color: black;
 }
 
 .contact-section p {
@@ -76,7 +76,7 @@ ul li a {
 }
 
 .contact-section a {
-  color: #333;
+  color: black;
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ ul li a {
 }
 
 .contact-section h3 {
-  color: #333;
+  color:black;
 }
 
 .contact-section p {
@@ -115,7 +115,7 @@ ul li a {
 }
 
 .contact-section a {
-  color: #333;
+  color: black;
   text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ ul li a {
 }
 
 .follow-us-section h2 {
-  color: #333;
+  color: black;
 }
 
 .follow-us-section ul {
