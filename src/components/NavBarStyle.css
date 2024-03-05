@@ -67,9 +67,9 @@
 }
 .Search button {
   width: 30px;
-  padding: 0;
+  padding: 0 ;
   box-sizing: border-box;
-  height: 35px;
+  height:35px;
   background-color: black;
   border: none;
   border-radius: 0 3px 3px 0;
@@ -84,14 +84,14 @@
   border: 1px dimgray solid;
 }
 .Search input:focus {
-  background-color: white;
+  background-color: white; 
 }
 .group-search {
   width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3%;
+  gap: 3%; 
 }
 .NavBar {
   /* border: 1px black solid; */
@@ -160,3 +160,4 @@
   justify-content: end;
   align-items: end;
 } */
+
