@@ -1,6 +1,6 @@
-import './Hero.css'
-import video from '../assets/video/bg.mp4'
-
+import "./Hero.css";
+import video from "../assets/video/bg.mp4";
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <div className="Hero">
@@ -17,7 +17,9 @@ function Hero() {
           month on original stories, StoryRoom has democratized storytelling for
           a new generation.
         </p>
-        <button> Get Start with Books </button>
+        <Link to="/books">
+          <button className="btn"> Get Start with Books </button>
+        </Link>
       </div>
       <div className="videoback"></div>
       <video loop muted autoPlay>
@@ -27,4 +29,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;

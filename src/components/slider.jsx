@@ -75,7 +75,7 @@ const containerstyle={
     return () => {
       clearInterval(interval);
     };
-  }, [carrent]);
+  }, [carrent, increase]);
 
   return (
     <>
